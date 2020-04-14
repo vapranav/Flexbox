@@ -1,0 +1,25 @@
+.container {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: pink;
+}
+
+.item {
+    margin: 30px 0;
+    padding: 100px;
+    background-color: green;
+    border-radius: 20px;
+}
+
+#item1 {
+    background-color: red;
+}
+
+#item2 {
+    background-color: yellow;
+}
